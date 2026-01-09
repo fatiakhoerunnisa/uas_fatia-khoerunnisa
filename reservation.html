@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservasi - SmartFit Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <section class="form-container">
+        <h2>Formulir <span>Reservasi</span></h2>
+        <form action="#" method="POST">
+            <input type="text" name="nama" placeholder="Nama Lengkap" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="hp" placeholder="Nomor HP" required>
+            
+            <div class="row">
+                <input type="date" name="tanggal" required>
+                <input type="time" name="jam" required>
+            </div>
+
+            <select name="program">
+                <option value="">Pilih Program</option>
+                <option value="yoga">Yoga</option>
+                <option value="hiit">HIIT</option>
+            </select>
+
+            <select name="cabang">
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+            </select>
+
+            <textarea placeholder="Catatan Khusus"></textarea>
+
+            <label>
+                <input type="checkbox" required> Saya menyetujui syarat dan ketentuan.
+            </label>
+
+            <button type="submit" class="btn-submit">KIRIM RESERVASI</button>
+        </form>
+    </section>
+</body>
+</html>
